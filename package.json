@@ -1,0 +1,43 @@
+{
+    "author": "Benni",
+    "dependencies": {},
+    "keywords": [],
+    "name": "sonylike",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "SonyLike",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[ -~]",
+                    "file": "fonts/InterstateRegular",
+                    "name": "FONT_INTERSTATE_REGULAR_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[ -~]",
+                    "file": "fonts/InterstateThin",
+                    "name": "FONT_INTERSTATE_THIN_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "3466f22a-b527-4389-85ac-c60cc30455b4",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
